@@ -1,0 +1,100 @@
+body {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+  url('background-img.png');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width: 98%;
+height: 95vh;
+margin-left: 0; /* إزالة الفراغ من اليسار */
+padding-left: 0; /* إزالة الفراغ الداخلي من اليسار */
+}
+
+.window {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  background-color: rgba(0, 0, 0, 0.7); /* نافذة سوداء مع شفافية */
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.text {
+  margin-top: 15px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #00bcd4;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0097a7;
+}
+.imagee {
+  margin-left: 0px; /* لضبط المسافة بين الصورة والنص */
+  margin-left: 700px;
+  margin-top: 88px;
+}
+.texte {
+direction: rtl; /* النص من اليمين لليسار */
+position: relative;
+padding-left: 390px;
+color: rgb(0, 0, 0);
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 50px; /* تكبير حجم الخط */
+font-weight: bold; /* جعل النص عريض */
+margin-top: -42.5px;
+text-align: center;
+}
+.yy{
+  margin-top: -55px;
+  
+}
+/* تنسيق التذييل */
+footer {
+  background-color: #454942;
+  color: white;
+  text-align: center;
+  padding: 30px ;
+  margin-top: 220px;
+  width: 1222px; /* عرض المربع */
+  margin-left: -2px; /* إزالة الفراغ من اليسار */
+}
+
+/* النص داخل التذييل */
+footer p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* التأثير عند التمرير فوق النص */
+footer p:hover {
+  color: #3498db;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+
+
+
+
+
